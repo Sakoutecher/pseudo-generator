@@ -1,10 +1,12 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-05-23)
+## 0.0.0 (2023-05-24)
 
 ### Added
 
+- ✨ Generate pseudos and display it to the user [[b67941b](https://github.com/Sakoutecher/pseudo-generator/commit/b67941b78c6d6abcf7ebffea7d28a4eb69a83e8a)]
+- 🔊 Update logs [[cfb2316](https://github.com/Sakoutecher/pseudo-generator/commit/cfb231614dde20539dc373bdf39b3021eb77f554)]
 - ✨ UseSelect [[f048911](https://github.com/Sakoutecher/pseudo-generator/commit/f048911e431495bca80b2dbef6bf498f0cf3700d)]
 - ✨ Dynamic options [[e89727c](https://github.com/Sakoutecher/pseudo-generator/commit/e89727c14ce8e1465ad893205a661f00fb3e371e)]
 - ✨ UseCheckbox [[e74d32e](https://github.com/Sakoutecher/pseudo-generator/commit/e74d32e64f5d66be1541bafe3a6fbcb362dbafd3)]
@@ -22,6 +24,9 @@
 
 ### Changed
 
+- 🍱 Repo preview [[a435bd5](https://github.com/Sakoutecher/pseudo-generator/commit/a435bd5d7e1414404464717e23d48714f2136028)]
+- 💄 Better display [[66aba61](https://github.com/Sakoutecher/pseudo-generator/commit/66aba61a271e6e00647034ce008ee5b89e0dfb0e)]
+- ⚡ Remove strict mode [[03d5b69](https://github.com/Sakoutecher/pseudo-generator/commit/03d5b691d1915db01b09281dae6400f8b323207e)]
 - ♻️ Use the custom hook useselect [[9e7de74](https://github.com/Sakoutecher/pseudo-generator/commit/9e7de741e1a75f5b4ba66816e2950868d42b0b95)]
 - 💬 Options of the Select component [[d94a289](https://github.com/Sakoutecher/pseudo-generator/commit/d94a289369fcc0f36a35d5a724f416df6b634dcc)]
 - ♻️ Use custom hook usecheckbox [[8cd7259](https://github.com/Sakoutecher/pseudo-generator/commit/8cd7259591f3039976802edf56b50334dcde5ed6)]
@@ -37,6 +42,13 @@
 
 ### Fixed
 
+- 🐛 Error in console [[ac4c154](https://github.com/Sakoutecher/pseudo-generator/commit/ac4c15498407f43b21a9fb0cd8a2474a005fbf32)]
 - 🐛 GithubButton component didnt use his props [[14b704b](https://github.com/Sakoutecher/pseudo-generator/commit/14b704b60fd2566246edba59978526386eb6fed5)]
+
+### Miscellaneous
+
+- 📝 Readme [[85820e8](https://github.com/Sakoutecher/pseudo-generator/commit/85820e8996defc7f95e0c283003acb939f92562d)]
+- 📝 Env example [[000ef34](https://github.com/Sakoutecher/pseudo-generator/commit/000ef349d4cc9a9dcb6362aac890baabda3b88b9)]
+- 🙈 .env [[bcfb8c0](https://github.com/Sakoutecher/pseudo-generator/commit/bcfb8c048422b0f55766968c552d25af1ea028d5)]
 
 
