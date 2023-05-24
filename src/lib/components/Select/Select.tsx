@@ -20,9 +20,6 @@ export const Select: FC<SelectProps> = ({ options }) => {
       className='my-4 w-full py-2 px-2 bg-transparent border-2 border-zinc-300 rounded outline-none'
       onChange={handleChange}
     >
-      <option value='' disabled selected>
-        Select one
-      </option>
       {options.map((option) => (
         <option key={option} value={option}>
           {option}
