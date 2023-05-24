@@ -3,11 +3,15 @@ import { FC } from 'react'
 
 type ButtonProps = {
   label: string
+  onClick?: () => void
 }
 
-export const Button: FC<ButtonProps> = ({ label }) => {
+export const Button: FC<ButtonProps> = ({ label, onClick }) => {
   return (
-    <button className='w-full uppercase bg-blue-300 hover:bg-blue-400 rounded py-2 bottom-0 absolute'>
+    <button
+      onClick={onClick}
+      className='w-full uppercase bg-blue-300 hover:bg-blue-400 rounded py-2 bottom-0 absolute'
+    >
       {label}
     </button>
   )
